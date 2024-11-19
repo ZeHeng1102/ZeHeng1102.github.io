@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaJam Coffee House <Menu></Menu></title>
+        <link rel="stylesheet" type="text/css" href="JavaJam.css">
+    </head>
+    <body>
+    <div id="wrapper">
+        <header>
+            <h1>JavaJam Coffee House Job</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Job.html">Job</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="herojobs"></div>
+            <h2>Job at JavaJam</h2>
+            <p>
+                "Want to work at Javajam?Fill out the form below to start yourapplication."
+            </p>
+            <p>Required fields are marked with an asterisk (*).</p>
+
+            <form action="http://webdevbasics.net/scripts/javajam8.php" method="post">
+                <!-- Name input field -->
+                <label for="myName">Name:</label>
+                <input type="text" id="myName" name="myName" required> 
+                <br><br>
+                <label for="myEmail">Email:</label>
+                <input type="email" id="myEmail" name="myEmail" required>
+                <br><br>
+                <label for="Experience">Eperience:</label>
+                <textarea name="myExperience" rows="2" cols="20" required></textarea>
+                <input type="submit" value="Apply Now" id="mySumbit">
+            </form>
+        </main>
+        <footer>
+            <p>Copyright&copy;2018Javajam Coffee House</br>
+            <a href="Yourfirstname@Yourlastname">Yourfirstname&copy;Yourlastname</a></i></p>
+        </footer>
+    </div>
+    </body>
+    
+</html>
